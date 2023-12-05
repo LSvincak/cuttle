@@ -24,6 +24,7 @@
     "vuetify": "^3.3.11"
   },
   "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
     "@mdi/font": "^7.0.96",
     "@storybook/addon-actions": "7.4.6",
     "@storybook/addon-essentials": "7.4.6",
