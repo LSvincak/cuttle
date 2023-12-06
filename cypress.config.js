@@ -8,6 +8,7 @@ module.exports = defineConfig({
     specPattern: ['tests/e2e/specs/**/*.spec.js'],
     excludeSpecPattern: ['tests/e2e/specs/playground.spec.js'],
     supportFile: 'tests/e2e/support/index.js',
+    experimentalRunAllSpecs: true,
   },
   // Retry tests 2 times headlessly, no retries in UI
   retries: {
